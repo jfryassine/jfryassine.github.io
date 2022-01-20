@@ -1,5 +1,5 @@
 import React from 'react'
-import {Instagram,Facebook,LinkedIn,GitHub} from "@material-ui/icons"
+import {Instagram,LinkedIn,GitHub} from "@material-ui/icons"
 import './footer.scss'
 
 export default function Footer() {
@@ -18,7 +18,7 @@ export default function Footer() {
 <div class="footer-left">
 
   <p class="footer-links">
-    <a class="link-1" href="#">jy.</a>
+    <a class="link-1" href="#main">jy.</a>
   </p>
 
   <p>Jaafar Yassine &copy; 2021</p>

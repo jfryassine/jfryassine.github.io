@@ -8,7 +8,7 @@ export default class Gallery extends Component {
 
         function importAll(r) {
             let images = {};
-            r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+            r.keys().map((item, index) => ( images[item.replace('./', '')] = r(item) ));
             return images;
           }
 
@@ -29,7 +29,7 @@ export default class Gallery extends Component {
                     data.map((item, index)=>{
                         return(
                             <div className="pics" key={index}>
-                                <img src={item.imgSrc} style={{width:'100%'}} onContextMenu="return false;" />
+                                <img src={item.imgSrc} alt='' style={{width:'100%'}} onContextMenu="return false;" />
                                 
                             </div>
                         )
