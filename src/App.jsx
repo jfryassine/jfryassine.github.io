@@ -9,7 +9,6 @@ import { init } from 'ityped';
 import About from './Components/About/About';
 import Radium, {StyleRoot} from 'radium';
 import { fadeIn } from 'react-animations';
-import { Nfts } from './Components/Nfts/Nfts';
 import nftbg from './assets/spietro.png';
 import colosseoimg from './Components/About/colosseo.png';
 import sunimg from './Components/About/sun.png';
