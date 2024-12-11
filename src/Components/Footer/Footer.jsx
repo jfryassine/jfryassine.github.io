@@ -18,10 +18,10 @@ export default function Footer() {
 <div class="footer-left">
 
   <p class="footer-links">
-    <a class="link-1" href="#main">jy.</a>
+    <a class="link-1" onClick={() => window.scroll({ top: 0, left: 0, behavior: 'smooth' })}>jy.</a>
   </p>
 
-  <p>Jaafar Yassine &copy; 2021</p>
+  <p>All Images &copy; 2019-2022 Jaafar Yassine</p>
 </div>
 
 </footer>

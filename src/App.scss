@@ -1,53 +1,208 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;800&display=swap');
 
+$muslih : 'Muslih', sans serif ;
 *{
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
   -webkit-tap-highlight-color: transparent;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  font-family: 'Muslih', sans-serif;
+      
+  overflow-y: scroll; 
+
+}
+*::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
-.app .vid{
-  position: relative;
-  font-size: 50px;
+
+
   
+
+  .topbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
   
+
+  }
+
+
+  .left{
+    display: flex;
+    margin: 1%;
+    color: white;
+    
+    .logo{
+      text-decoration: none;
+      cursor: pointer;
+      
+    }
+    
+  }
+
+  .right{
+    display: flex;
+    margin: 1%;
+    
+    
+    color: white;
+  }
+
+  .aboutlink{
+    display: flex;
+    margin: 3px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+    :hover{
+      color: white;
+      text-decoration-color: white;
+      animation: hoverer 1s linear infinite;
+      
+    }
+    
+  }
+
+
+  .nftslink{
+    text-decoration: none;
+    cursor: pointer;
+    margin: 3px 10px 3px 3px;
+    display: flex;
+    
+
+    background: linear-gradient(-45deg, #6481d1, #6355a4, #70e461, #e8cf3e);
+	background-size: 300%;
+	-webkit-background-clip: text;
+  background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 10s ease-in-out infinite;
+	-moz-animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 10s ease-in-out infinite;
+
+    h4{
+      font-weight: bold;
+    }
+
+  }
+  @keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
 }
+  
+  .info{
+    bottom: 1%;
+    right: 0.5%;
+    position: absolute;
+    
+    
+    :hover{
+      animation: hoverer 1s linear infinite;
+    }
+  }
+
+  @keyframes hoverer {
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  
+
 
  .app .vid .video{
     height: 100vh;
     width: 100%;
-    object-fit:cover;
-    display: block; 
+    object-fit:cover; 
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(dsc.jpg);
+    background-size:cover;
+    background-position: center;
+    
+    .text0{
+      font-size: 1.2rem;
+      font-weight: bold;
+        color:white
+      
+     }
+    
 }
-.app .vid .container{
-  position: absolute;
-  top: 47%;
-  margin: 0 auto;
+.container{
+  // position: absolute;
+  // display: flex;
+  // padding: 5%;
+  // flex-direction: column;
+  // align-items: center;
+  // justify-content: center;
+  // top: 39%;
+  // left: 8%;
+  text-align: center;
   width: 100%;
-  text-align: center;
  
-}
-
-
-button {
-  transition: all .5s ease;
-  color: #fff;
-  border: 3px solid white;
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 1;
-  font-size: 3rem;
-  background-color : transparent;
-  padding: 15px;
-  outline: none;
-  border-radius: 4px;
-}
-button:hover {
   
-  color:black;
-  background-color: #fff;
+  
+ p{
+   color: white;
+ }
+ 
+ .text1{
+   color: white;
+   font-size: 2rem;
+   font-weight: bold;
+ }
+ .text2{
+   font-size: 1.2rem;
+   font-weight: bold;
+ }
 }
+
+ 
+.proceed{
+  
+  animation: blinker 3s linear infinite;
+  
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+
 
 .main{
-  background-color: #292c2f;
+  background-color: #292c2f;          
+}
+
+@media only screen and (max-width: 1280px) {
+  .app .vid .container {
+    left:2%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .app .vid .container {
+    left:0%;
+  }
+  .container{
+  .text1{
+    font-size: 1.5rem;
+  }
+  .text2,text0{
+    font-size: 1rem;
+  }
+}
 }
