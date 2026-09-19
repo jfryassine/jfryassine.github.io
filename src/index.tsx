@@ -1,16 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import smoothscroll from 'smoothscroll-polyfill';
+﻿import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-smoothscroll.polyfill();
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-reportWebVitals();
+import './index.css';
+createRoot(document.getElementById('root')!).render(<StrictMode><App /></StrictMode>);
