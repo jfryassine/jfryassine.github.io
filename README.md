@@ -19,7 +19,16 @@ npm run build
 npm run preview
 ```
 
-The build runs TypeScript checks and produces a static site in `dist/`. Upload the contents to any static host. For GitHub Pages, select **GitHub Actions** as the Pages source; the included workflow builds and deploys on pushes to `main` or `master`, or by manual dispatch. Deployment only occurs when that workflow runs on GitHub.
+The build runs TypeScript checks and produces a static site in `dist/`. Upload the contents to any static host.
+
+### GitHub Pages setup
+
+1. Open the repository's **Settings → Pages → Build and deployment**.
+2. Set **Source** to **GitHub Actions**, instead of **Deploy from a branch**.
+3. Push the deployment workflow to `develop`. The **Deploy photography portfolio** workflow will build, test, and publish `dist/`. It can also be started manually from the Actions tab when the workflow is on the default branch.
+4. Wait for that workflow's deployment job to succeed before refreshing the site.
+
+The production branch for this repository is `develop`. Publishing its root directly serves the development `index.html`, which imports `/src/index.tsx`. Browsers cannot execute that TypeScript source, so the result is a blank page. A successful **pages build and deployment** run from branch publishing does not mean Vite has built the app. The deployed HTML must reference compiled files under `assets/`, not `/src/`.
 
 ## Content
 
