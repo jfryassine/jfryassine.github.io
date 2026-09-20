@@ -6,12 +6,14 @@ import { photos, locations } from './Components/Gallery/collections';
 import { media } from './Components/Gallery/media';
 import settings from './Components/Gallery/media-settings.json';
 
-let intersect: (visible: boolean) => void;
+let intersections: ((visible: boolean) => void)[];
 beforeEach(() => {
+  intersections = [];
   vi.stubGlobal('matchMedia', vi.fn(() => ({ matches: false, addEventListener: vi.fn(), removeEventListener: vi.fn() })));
   vi.stubGlobal('IntersectionObserver', class {
-    constructor(callback: IntersectionObserverCallback) { intersect = visible => callback([{ isIntersecting: visible } as IntersectionObserverEntry], this as unknown as IntersectionObserver); }
-    observe() { intersect(true); }
+    callback: (visible: boolean) => void;
+    constructor(callback: IntersectionObserverCallback) { this.callback = visible => callback([{ isIntersecting: visible } as IntersectionObserverEntry], this as unknown as IntersectionObserver); intersections.push(this.callback); }
+    observe() { this.callback(true); }
     disconnect() {}
   });
 });
@@ -20,14 +22,14 @@ const viewName = (photo: typeof photos[number]) => `View ${photo.location}, phot
 describe('worldwide photography journal', () => {
   it('includes every source photo and video in the generated collection', () => {
     const originals = Object.keys(import.meta.glob('./Components/Gallery/imgs/*')).filter(name => /\.(jpe?g|png|webp|mov|mp4)$/i.test(name)).map(path => path.split('/').at(-1)!);
-    expect(media.map(item => item.filename).sort()).toEqual(originals.filter(name => !settings.excludedFiles.includes(name)).sort());
+    expect(media.map(item => item.filename).sort()).toEqual(originals.filter(name => !(settings.excludedFiles as string[]).includes(name)).sort());
     expect(new Set(media.map(item => item.id)).size).toBe(media.length);
     expect(photos.every(item => item.width > 0 && item.height > 0)).toBe(true);
   });
   it('shows all photographs and working section destinations', () => {
     render(<App />);
     expect(screen.getAllByRole('button', { name: /^View / })).toHaveLength(photos.length);
-    expect(document.querySelectorAll('video')).toHaveLength(1);
+    expect(document.querySelectorAll('video')).toHaveLength(2);
     for (const link of document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]')) expect(document.querySelector(link.hash)).not.toBeNull();
   });
   it('filters by every location and restores the complete collection', async () => {
@@ -62,18 +64,24 @@ describe('worldwide photography journal', () => {
     expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
     expect(document.body.style.overflow).toBe('');
   });
-  it('uses only Vienna as a muted looping background and lets visitors pause', async () => {
+  it('plays both films independently and unloads them outside the viewport', async () => {
     const user = userEvent.setup(); render(<App />);
     const video = document.querySelector('video')!;
     expect(video.muted).toBe(true);
     expect(video).toHaveAttribute('loop');
     expect(video).toHaveAttribute('playsinline');
     expect(video.querySelector('source')?.src).toContain('film-vienna');
-    expect(media.some(item => item.filename === 'Iraq (1).MOV')).toBe(false);
+    const closing = document.querySelector('footer video')!;
+    expect(closing.querySelector('source')?.src).toContain('film-iraq');
+    expect(closing).toHaveAttribute('loop');
+    expect(closing).toHaveAttribute('playsinline');
+    expect((closing as HTMLVideoElement).muted).toBe(true);
     fireEvent.play(video);
     await user.click(screen.getByRole('button', { name: 'Pause background video' }));
     expect(video.pause).toHaveBeenCalled();
-    act(() => intersect(false));
+    act(() => intersections[0](false));
+    expect(document.querySelector('footer video')).toBe(closing);
+    act(() => intersections[1](false));
     expect(document.querySelector('video')).toBeNull();
   });
   it('shows a still frame without loading video for reduced motion', () => {
@@ -85,7 +93,7 @@ describe('worldwide photography journal', () => {
   });
   it('retains the still backdrop when playback fails', () => {
     render(<App />);
-    fireEvent.error(document.querySelector('video')!);
+    for (const video of document.querySelectorAll('video')) fireEvent.error(video);
     expect(document.querySelector('video')).toBeNull();
     expect(document.querySelector('.journey-background')).toHaveAttribute('src');
   });

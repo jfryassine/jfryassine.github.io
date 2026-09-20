@@ -21,86 +21,88 @@ import source9 from './optimized/photo-firenze-3.webp';
 import preview9 from './optimized/photo-firenze-3-thumb.webp';
 import source10 from './optimized/photo-iraq-1.webp';
 import preview10 from './optimized/photo-iraq-1-thumb.webp';
-import source11 from './optimized/photo-iraq-2.webp';
-import preview11 from './optimized/photo-iraq-2-thumb.webp';
-import source12 from './optimized/photo-iraq-3.webp';
-import preview12 from './optimized/photo-iraq-3-thumb.webp';
-import source13 from './optimized/photo-iraq-4.webp';
-import preview13 from './optimized/photo-iraq-4-thumb.webp';
-import source14 from './optimized/photo-iraq-5.webp';
-import preview14 from './optimized/photo-iraq-5-thumb.webp';
-import source15 from './optimized/photo-iraq-6.webp';
-import preview15 from './optimized/photo-iraq-6-thumb.webp';
-import source16 from './optimized/photo-orvieto.webp';
-import preview16 from './optimized/photo-orvieto-thumb.webp';
-import source17 from './optimized/photo-paris-1.webp';
-import preview17 from './optimized/photo-paris-1-thumb.webp';
-import source18 from './optimized/photo-paris-2.webp';
-import preview18 from './optimized/photo-paris-2-thumb.webp';
-import source19 from './optimized/photo-paris-3.webp';
-import preview19 from './optimized/photo-paris-3-thumb.webp';
-import source20 from './optimized/photo-paris-4.webp';
-import preview20 from './optimized/photo-paris-4-thumb.webp';
-import source21 from './optimized/photo-paris-5.webp';
-import preview21 from './optimized/photo-paris-5-thumb.webp';
-import source22 from './optimized/photo-paris-6.webp';
-import preview22 from './optimized/photo-paris-6-thumb.webp';
-import source23 from './optimized/photo-porta-portese-1.webp';
-import preview23 from './optimized/photo-porta-portese-1-thumb.webp';
-import source24 from './optimized/photo-porta-portese-2.webp';
-import preview24 from './optimized/photo-porta-portese-2-thumb.webp';
-import source25 from './optimized/photo-porta-portese-3.webp';
-import preview25 from './optimized/photo-porta-portese-3-thumb.webp';
-import source26 from './optimized/photo-rome-1.webp';
-import preview26 from './optimized/photo-rome-1-thumb.webp';
-import source27 from './optimized/photo-rome-2.webp';
-import preview27 from './optimized/photo-rome-2-thumb.webp';
-import source28 from './optimized/photo-rome-3.webp';
-import preview28 from './optimized/photo-rome-3-thumb.webp';
-import source29 from './optimized/photo-rome-4.webp';
-import preview29 from './optimized/photo-rome-4-thumb.webp';
-import source30 from './optimized/photo-rome-5.webp';
-import preview30 from './optimized/photo-rome-5-thumb.webp';
-import source31 from './optimized/photo-rome-6.webp';
-import preview31 from './optimized/photo-rome-6-thumb.webp';
-import source32 from './optimized/photo-rome-7.webp';
-import preview32 from './optimized/photo-rome-7-thumb.webp';
-import source33 from './optimized/photo-rome-8.webp';
-import preview33 from './optimized/photo-rome-8-thumb.webp';
-import source34 from './optimized/photo-rome-9.webp';
-import preview34 from './optimized/photo-rome-9-thumb.webp';
-import source35 from './optimized/photo-rome-10.webp';
-import preview35 from './optimized/photo-rome-10-thumb.webp';
-import source36 from './optimized/photo-rome-11.webp';
-import preview36 from './optimized/photo-rome-11-thumb.webp';
-import source37 from './optimized/photo-rome-12.webp';
-import preview37 from './optimized/photo-rome-12-thumb.webp';
-import source38 from './optimized/photo-rome-13.webp';
-import preview38 from './optimized/photo-rome-13-thumb.webp';
-import source39 from './optimized/photo-rome.webp';
-import preview39 from './optimized/photo-rome-thumb.webp';
-import source40 from './optimized/photo-siena.webp';
-import preview40 from './optimized/photo-siena-thumb.webp';
-import source41 from './optimized/photo-sofia-1.webp';
-import preview41 from './optimized/photo-sofia-1-thumb.webp';
-import source42 from './optimized/photo-sofia-2.webp';
-import preview42 from './optimized/photo-sofia-2-thumb.webp';
-import source43 from './optimized/photo-sofia-3.webp';
-import preview43 from './optimized/photo-sofia-3-thumb.webp';
-import source44 from './optimized/photo-sofia-4.webp';
-import preview44 from './optimized/photo-sofia-4-thumb.webp';
-import source45 from './optimized/photo-sofia-5.webp';
-import preview45 from './optimized/photo-sofia-5-thumb.webp';
-import source46 from './optimized/photo-southern-lebanon.webp';
-import preview46 from './optimized/photo-southern-lebanon-thumb.webp';
-import source47 from './optimized/photo-vienna-1.webp';
-import preview47 from './optimized/photo-vienna-1-thumb.webp';
-import source48 from './optimized/film-vienna-1.mp4';
-import preview48 from './optimized/film-vienna-1-poster.webp';
-import source49 from './optimized/photo-vienna-2.webp';
-import preview49 from './optimized/photo-vienna-2-thumb.webp';
-import source50 from './optimized/photo-vienna-3.webp';
-import preview50 from './optimized/photo-vienna-3-thumb.webp';
+import source11 from './optimized/film-iraq-1.mp4';
+import preview11 from './optimized/film-iraq-1-poster.webp';
+import source12 from './optimized/photo-iraq-2.webp';
+import preview12 from './optimized/photo-iraq-2-thumb.webp';
+import source13 from './optimized/photo-iraq-3.webp';
+import preview13 from './optimized/photo-iraq-3-thumb.webp';
+import source14 from './optimized/photo-iraq-4.webp';
+import preview14 from './optimized/photo-iraq-4-thumb.webp';
+import source15 from './optimized/photo-iraq-5.webp';
+import preview15 from './optimized/photo-iraq-5-thumb.webp';
+import source16 from './optimized/photo-iraq-6.webp';
+import preview16 from './optimized/photo-iraq-6-thumb.webp';
+import source17 from './optimized/photo-orvieto.webp';
+import preview17 from './optimized/photo-orvieto-thumb.webp';
+import source18 from './optimized/photo-paris-1.webp';
+import preview18 from './optimized/photo-paris-1-thumb.webp';
+import source19 from './optimized/photo-paris-2.webp';
+import preview19 from './optimized/photo-paris-2-thumb.webp';
+import source20 from './optimized/photo-paris-3.webp';
+import preview20 from './optimized/photo-paris-3-thumb.webp';
+import source21 from './optimized/photo-paris-4.webp';
+import preview21 from './optimized/photo-paris-4-thumb.webp';
+import source22 from './optimized/photo-paris-5.webp';
+import preview22 from './optimized/photo-paris-5-thumb.webp';
+import source23 from './optimized/photo-paris-6.webp';
+import preview23 from './optimized/photo-paris-6-thumb.webp';
+import source24 from './optimized/photo-porta-portese-1.webp';
+import preview24 from './optimized/photo-porta-portese-1-thumb.webp';
+import source25 from './optimized/photo-porta-portese-2.webp';
+import preview25 from './optimized/photo-porta-portese-2-thumb.webp';
+import source26 from './optimized/photo-porta-portese-3.webp';
+import preview26 from './optimized/photo-porta-portese-3-thumb.webp';
+import source27 from './optimized/photo-rome-1.webp';
+import preview27 from './optimized/photo-rome-1-thumb.webp';
+import source28 from './optimized/photo-rome-2.webp';
+import preview28 from './optimized/photo-rome-2-thumb.webp';
+import source29 from './optimized/photo-rome-3.webp';
+import preview29 from './optimized/photo-rome-3-thumb.webp';
+import source30 from './optimized/photo-rome-4.webp';
+import preview30 from './optimized/photo-rome-4-thumb.webp';
+import source31 from './optimized/photo-rome-5.webp';
+import preview31 from './optimized/photo-rome-5-thumb.webp';
+import source32 from './optimized/photo-rome-6.webp';
+import preview32 from './optimized/photo-rome-6-thumb.webp';
+import source33 from './optimized/photo-rome-7.webp';
+import preview33 from './optimized/photo-rome-7-thumb.webp';
+import source34 from './optimized/photo-rome-8.webp';
+import preview34 from './optimized/photo-rome-8-thumb.webp';
+import source35 from './optimized/photo-rome-9.webp';
+import preview35 from './optimized/photo-rome-9-thumb.webp';
+import source36 from './optimized/photo-rome-10.webp';
+import preview36 from './optimized/photo-rome-10-thumb.webp';
+import source37 from './optimized/photo-rome-11.webp';
+import preview37 from './optimized/photo-rome-11-thumb.webp';
+import source38 from './optimized/photo-rome-12.webp';
+import preview38 from './optimized/photo-rome-12-thumb.webp';
+import source39 from './optimized/photo-rome-13.webp';
+import preview39 from './optimized/photo-rome-13-thumb.webp';
+import source40 from './optimized/photo-rome.webp';
+import preview40 from './optimized/photo-rome-thumb.webp';
+import source41 from './optimized/photo-siena.webp';
+import preview41 from './optimized/photo-siena-thumb.webp';
+import source42 from './optimized/photo-sofia-1.webp';
+import preview42 from './optimized/photo-sofia-1-thumb.webp';
+import source43 from './optimized/photo-sofia-2.webp';
+import preview43 from './optimized/photo-sofia-2-thumb.webp';
+import source44 from './optimized/photo-sofia-3.webp';
+import preview44 from './optimized/photo-sofia-3-thumb.webp';
+import source45 from './optimized/photo-sofia-4.webp';
+import preview45 from './optimized/photo-sofia-4-thumb.webp';
+import source46 from './optimized/photo-sofia-5.webp';
+import preview46 from './optimized/photo-sofia-5-thumb.webp';
+import source47 from './optimized/photo-southern-lebanon.webp';
+import preview47 from './optimized/photo-southern-lebanon-thumb.webp';
+import source48 from './optimized/photo-vienna-1.webp';
+import preview48 from './optimized/photo-vienna-1-thumb.webp';
+import source49 from './optimized/film-vienna-1.mp4';
+import preview49 from './optimized/film-vienna-1-poster.webp';
+import source50 from './optimized/photo-vienna-2.webp';
+import preview50 from './optimized/photo-vienna-2-thumb.webp';
+import source51 from './optimized/photo-vienna-3.webp';
+import preview51 from './optimized/photo-vienna-3-thumb.webp';
 
 export type MediaItem = {
   id: string; kind: 'photo' | 'video'; filename: string; location: string; sequence: number;
@@ -119,44 +121,45 @@ export const media: MediaItem[] = [
   { ...{"id":"photo-firenze-2","kind":"photo","filename":"Firenze (2).jpg","location":"Firenze","sequence":2,"width":1200,"height":1800,"alt":"A visitor photographing the skyline of Firenze"}, src: source8, preview: preview8 },
   { ...{"id":"photo-firenze-3","kind":"photo","filename":"Firenze (3).jpg","location":"Firenze","sequence":3,"width":1157,"height":1800,"alt":"The dome of Firenze framed by flowers"}, src: source9, preview: preview9 },
   { ...{"id":"photo-iraq-1","kind":"photo","filename":"Iraq (1).jpg","location":"Iraq","sequence":1,"width":1200,"height":1800,"alt":"A glowing orange sun against a dusky sky in Iraq"}, src: source10, preview: preview10 },
-  { ...{"id":"photo-iraq-2","kind":"photo","filename":"Iraq (2).jpg","location":"Iraq","sequence":2,"width":800,"height":1199,"alt":"People carrying flags under autumn trees in Iraq"}, src: source11, preview: preview11 },
-  { ...{"id":"photo-iraq-3","kind":"photo","filename":"Iraq (3).jpg","location":"Iraq","sequence":3,"width":1350,"height":1800,"alt":"Golden domes and minarets illuminated at night in Iraq"}, src: source12, preview: preview12 },
-  { ...{"id":"photo-iraq-4","kind":"photo","filename":"Iraq (4).jpg","location":"Iraq","sequence":4,"width":1088,"height":1800,"alt":"Intricate blue tilework surrounding a golden window in Iraq"}, src: source13, preview: preview13 },
-  { ...{"id":"photo-iraq-5","kind":"photo","filename":"Iraq (5).jpg","location":"Iraq","sequence":5,"width":1350,"height":1800,"alt":"A golden finial on a dome beneath a clear sky in Iraq"}, src: source14, preview: preview14 },
-  { ...{"id":"photo-iraq-6","kind":"photo","filename":"Iraq (6).jpg","location":"Iraq","sequence":6,"width":1621,"height":1800,"alt":"An orange moon rising above city lights in Iraq"}, src: source15, preview: preview15 },
-  { ...{"id":"photo-orvieto","kind":"photo","filename":"Orvieto.jpg","location":"Orvieto","sequence":1,"width":1350,"height":1800,"alt":"A red car parked on a narrow street in Orvieto"}, src: source16, preview: preview16 },
-  { ...{"id":"photo-paris-1","kind":"photo","filename":"Paris (1).jpg","location":"Paris","sequence":1,"width":1200,"height":1800,"alt":"A busy Paris street leading towards a hilltop basilica"}, src: source17, preview: preview17 },
-  { ...{"id":"photo-paris-2","kind":"photo","filename":"Paris (2).jpg","location":"Paris","sequence":2,"width":1197,"height":1800,"alt":"The Eiffel Tower at dusk, framed by silhouetted branches"}, src: source18, preview: preview18 },
-  { ...{"id":"photo-paris-3","kind":"photo","filename":"Paris (3).jpg","location":"Paris","sequence":3,"width":1200,"height":1800,"alt":"People browsing a street market in Paris"}, src: source19, preview: preview19 },
-  { ...{"id":"photo-paris-4","kind":"photo","filename":"Paris (4).jpg","location":"Paris","sequence":4,"width":1200,"height":1800,"alt":"Notre-Dame above the river and a passing boat in Paris"}, src: source20, preview: preview20 },
-  { ...{"id":"photo-paris-5","kind":"photo","filename":"Paris (5).jpg","location":"Paris","sequence":5,"width":1200,"height":1800,"alt":"A crowd filling a tree-lined street in Paris"}, src: source21, preview: preview21 },
-  { ...{"id":"photo-paris-6","kind":"photo","filename":"Paris (6).jpg","location":"Paris","sequence":6,"width":1200,"height":1800,"alt":"Market stalls and pedestrians beneath Paris buildings"}, src: source22, preview: preview22 },
-  { ...{"id":"photo-porta-portese-1","kind":"photo","filename":"Porta Portese (1).webp","location":"Porta Portese","sequence":1,"width":1350,"height":1800,"alt":"Vintage objects displayed beside a van at Porta Portese"}, src: source23, preview: preview23 },
-  { ...{"id":"photo-porta-portese-2","kind":"photo","filename":"Porta Portese (2).webp","location":"Porta Portese","sequence":2,"width":1350,"height":1800,"alt":"Framed pictures and second-hand objects at Porta Portese"}, src: source24, preview: preview24 },
-  { ...{"id":"photo-porta-portese-3","kind":"photo","filename":"Porta Portese (3).webp","location":"Porta Portese","sequence":3,"width":1350,"height":1800,"alt":"Shelves of objects and furniture at Porta Portese"}, src: source25, preview: preview25 },
-  { ...{"id":"photo-rome-1","kind":"photo","filename":"Rome (1).jpg","location":"Rome","sequence":1,"width":1125,"height":1800,"alt":"A tram travelling past ornate buildings in Rome"}, src: source26, preview: preview26 },
-  { ...{"id":"photo-rome-2","kind":"photo","filename":"Rome (2).jpg","location":"Rome","sequence":2,"width":1300,"height":866,"alt":"A rowing boat on the lake at Villa Borghese, framed by autumn trees"}, src: source27, preview: preview27 },
-  { ...{"id":"photo-rome-3","kind":"photo","filename":"Rome (3).jpg","location":"Rome","sequence":3,"width":1300,"height":877,"alt":"The Colosseum illuminated against the night sky"}, src: source28, preview: preview28 },
-  { ...{"id":"photo-rome-4","kind":"photo","filename":"Rome (4).jpg","location":"Rome","sequence":4,"width":800,"height":1303,"alt":"St. Peter’s Basilica above a busy Roman street"}, src: source29, preview: preview29 },
-  { ...{"id":"photo-rome-5","kind":"photo","filename":"Rome (5).jpg","location":"Rome","sequence":5,"width":1300,"height":878,"alt":"Castel Sant’Angelo beneath purple storm clouds"}, src: source30, preview: preview30 },
-  { ...{"id":"photo-rome-6","kind":"photo","filename":"Rome (6).jpg","location":"Rome","sequence":6,"width":1300,"height":867,"alt":"St. Peter’s Basilica glowing beneath a pink and gold sunset"}, src: source31, preview: preview31 },
-  { ...{"id":"photo-rome-7","kind":"photo","filename":"Rome (7).jpg","location":"Rome","sequence":7,"width":800,"height":1200,"alt":"A distant dome framed by silhouetted trees at dusk in Rome"}, src: source32, preview: preview32 },
-  { ...{"id":"photo-rome-8","kind":"photo","filename":"Rome (8).jpg","location":"Rome","sequence":8,"width":1300,"height":866,"alt":"Lights along the Tiber reflected in the river at night"}, src: source33, preview: preview33 },
-  { ...{"id":"photo-rome-9","kind":"photo","filename":"Rome (9).jpg","location":"Rome","sequence":9,"width":1300,"height":867,"alt":"Roman rooftops and domes beyond green trees"}, src: source34, preview: preview34 },
-  { ...{"id":"photo-rome-10","kind":"photo","filename":"Rome (10).jpg","location":"Rome","sequence":10,"width":800,"height":1094,"alt":"A pedestrian and passing traffic on a Roman street"}, src: source35, preview: preview35 },
-  { ...{"id":"photo-rome-11","kind":"photo","filename":"Rome (11).jpg","location":"Rome","sequence":11,"width":800,"height":1200,"alt":"An ornate painted ceiling with gilded architectural details in Rome"}, src: source36, preview: preview36 },
-  { ...{"id":"photo-rome-12","kind":"photo","filename":"Rome (12).jpg","location":"Rome","sequence":12,"width":1300,"height":867,"alt":"People walking through a Roman square surrounded by pastel buildings"}, src: source37, preview: preview37 },
-  { ...{"id":"photo-rome-13","kind":"photo","filename":"Rome (13).jpg","location":"Rome","sequence":13,"width":1300,"height":866,"alt":"A photographer beside a bicycle on a cobbled street in Rome"}, src: source38, preview: preview38 },
-  { ...{"id":"photo-rome","kind":"photo","filename":"Rome.jpg","location":"Rome","sequence":1,"width":800,"height":1200,"alt":"A brightly lit stall in a dark Roman square"}, src: source39, preview: preview39 },
-  { ...{"id":"photo-siena","kind":"photo","filename":"siena.jpg","location":"Siena","sequence":1,"width":800,"height":1182,"alt":"A church dome framed by geometric brick architecture in Siena"}, src: source40, preview: preview40 },
-  { ...{"id":"photo-sofia-1","kind":"photo","filename":"Sofia (1).jpg","location":"Sofia","sequence":1,"width":1350,"height":1800,"alt":"Sunlight glowing over the rooftops of Sofia through a window"}, src: source41, preview: preview41 },
-  { ...{"id":"photo-sofia-2","kind":"photo","filename":"Sofia (2).jpg","location":"Sofia","sequence":2,"width":1350,"height":1800,"alt":"Sunlight streaming between buildings on a Sofia street"}, src: source42, preview: preview42 },
-  { ...{"id":"photo-sofia-3","kind":"photo","filename":"Sofia (3).jpg","location":"Sofia","sequence":3,"width":720,"height":1280,"alt":"An illuminated cathedral against the night sky in Sofia"}, src: source43, preview: preview43 },
-  { ...{"id":"photo-sofia-4","kind":"photo","filename":"Sofia (4).jpg","location":"Sofia","sequence":4,"width":960,"height":1280,"alt":"A pedestrian on a Sofia street in warm evening light"}, src: source44, preview: preview44 },
-  { ...{"id":"photo-sofia-5","kind":"photo","filename":"Sofia (5).jpg","location":"Sofia","sequence":5,"width":1350,"height":1800,"alt":"Trams and traffic beneath a setting sun in Sofia"}, src: source45, preview: preview45 },
-  { ...{"id":"photo-southern-lebanon","kind":"photo","filename":"Southern Lebanon.jpg","location":"Southern Lebanon","sequence":1,"width":1800,"height":1200,"alt":"Green fields and a distant hillside settlement in Southern Lebanon"}, src: source46, preview: preview46 },
-  { ...{"id":"photo-vienna-1","kind":"photo","filename":"Vienna (1).jpg","location":"Vienna","sequence":1,"width":1800,"height":1350,"alt":"Cafe tables and shopfronts on a street in Vienna"}, src: source47, preview: preview47 },
-  { ...{"id":"film-vienna-1","kind":"video","filename":"Vienna (1).MOV","location":"Vienna","sequence":1,"width":1200,"height":675,"alt":"Trees passing a train window on a journey through Vienna."}, src: source48, preview: preview48 },
-  { ...{"id":"photo-vienna-2","kind":"photo","filename":"Vienna (2).jpg","location":"Vienna","sequence":2,"width":1012,"height":1800,"alt":"Modern buildings beneath blue sky in Vienna"}, src: source49, preview: preview49 },
-  { ...{"id":"photo-vienna-3","kind":"photo","filename":"Vienna (3).jpg","location":"Vienna","sequence":3,"width":1350,"height":1800,"alt":"An elevated view of a Vienna street corner"}, src: source50, preview: preview50 }
+  { ...{"id":"film-iraq-1","kind":"video","filename":"Iraq (1).MOV","location":"Iraq","sequence":1,"width":675,"height":1200,"alt":"A crowd beneath a golden dome and minaret in Iraq."}, src: source11, preview: preview11 },
+  { ...{"id":"photo-iraq-2","kind":"photo","filename":"Iraq (2).jpg","location":"Iraq","sequence":2,"width":800,"height":1199,"alt":"People carrying flags under autumn trees in Iraq"}, src: source12, preview: preview12 },
+  { ...{"id":"photo-iraq-3","kind":"photo","filename":"Iraq (3).jpg","location":"Iraq","sequence":3,"width":1350,"height":1800,"alt":"Golden domes and minarets illuminated at night in Iraq"}, src: source13, preview: preview13 },
+  { ...{"id":"photo-iraq-4","kind":"photo","filename":"Iraq (4).jpg","location":"Iraq","sequence":4,"width":1088,"height":1800,"alt":"Intricate blue tilework surrounding a golden window in Iraq"}, src: source14, preview: preview14 },
+  { ...{"id":"photo-iraq-5","kind":"photo","filename":"Iraq (5).jpg","location":"Iraq","sequence":5,"width":1350,"height":1800,"alt":"A golden finial on a dome beneath a clear sky in Iraq"}, src: source15, preview: preview15 },
+  { ...{"id":"photo-iraq-6","kind":"photo","filename":"Iraq (6).jpg","location":"Iraq","sequence":6,"width":1621,"height":1800,"alt":"An orange moon rising above city lights in Iraq"}, src: source16, preview: preview16 },
+  { ...{"id":"photo-orvieto","kind":"photo","filename":"Orvieto.jpg","location":"Orvieto","sequence":1,"width":1350,"height":1800,"alt":"A red car parked on a narrow street in Orvieto"}, src: source17, preview: preview17 },
+  { ...{"id":"photo-paris-1","kind":"photo","filename":"Paris (1).jpg","location":"Paris","sequence":1,"width":1200,"height":1800,"alt":"A busy Paris street leading towards a hilltop basilica"}, src: source18, preview: preview18 },
+  { ...{"id":"photo-paris-2","kind":"photo","filename":"Paris (2).jpg","location":"Paris","sequence":2,"width":1197,"height":1800,"alt":"The Eiffel Tower at dusk, framed by silhouetted branches"}, src: source19, preview: preview19 },
+  { ...{"id":"photo-paris-3","kind":"photo","filename":"Paris (3).jpg","location":"Paris","sequence":3,"width":1200,"height":1800,"alt":"People browsing a street market in Paris"}, src: source20, preview: preview20 },
+  { ...{"id":"photo-paris-4","kind":"photo","filename":"Paris (4).jpg","location":"Paris","sequence":4,"width":1200,"height":1800,"alt":"Notre-Dame above the river and a passing boat in Paris"}, src: source21, preview: preview21 },
+  { ...{"id":"photo-paris-5","kind":"photo","filename":"Paris (5).jpg","location":"Paris","sequence":5,"width":1200,"height":1800,"alt":"A crowd filling a tree-lined street in Paris"}, src: source22, preview: preview22 },
+  { ...{"id":"photo-paris-6","kind":"photo","filename":"Paris (6).jpg","location":"Paris","sequence":6,"width":1200,"height":1800,"alt":"Market stalls and pedestrians beneath Paris buildings"}, src: source23, preview: preview23 },
+  { ...{"id":"photo-porta-portese-1","kind":"photo","filename":"Porta Portese (1).webp","location":"Porta Portese","sequence":1,"width":1350,"height":1800,"alt":"Vintage objects displayed beside a van at Porta Portese"}, src: source24, preview: preview24 },
+  { ...{"id":"photo-porta-portese-2","kind":"photo","filename":"Porta Portese (2).webp","location":"Porta Portese","sequence":2,"width":1350,"height":1800,"alt":"Framed pictures and second-hand objects at Porta Portese"}, src: source25, preview: preview25 },
+  { ...{"id":"photo-porta-portese-3","kind":"photo","filename":"Porta Portese (3).webp","location":"Porta Portese","sequence":3,"width":1350,"height":1800,"alt":"Shelves of objects and furniture at Porta Portese"}, src: source26, preview: preview26 },
+  { ...{"id":"photo-rome-1","kind":"photo","filename":"Rome (1).jpg","location":"Rome","sequence":1,"width":1125,"height":1800,"alt":"A tram travelling past ornate buildings in Rome"}, src: source27, preview: preview27 },
+  { ...{"id":"photo-rome-2","kind":"photo","filename":"Rome (2).jpg","location":"Rome","sequence":2,"width":1300,"height":866,"alt":"A rowing boat on the lake at Villa Borghese, framed by autumn trees"}, src: source28, preview: preview28 },
+  { ...{"id":"photo-rome-3","kind":"photo","filename":"Rome (3).jpg","location":"Rome","sequence":3,"width":1300,"height":877,"alt":"The Colosseum illuminated against the night sky"}, src: source29, preview: preview29 },
+  { ...{"id":"photo-rome-4","kind":"photo","filename":"Rome (4).jpg","location":"Rome","sequence":4,"width":800,"height":1303,"alt":"St. Peter’s Basilica above a busy Roman street"}, src: source30, preview: preview30 },
+  { ...{"id":"photo-rome-5","kind":"photo","filename":"Rome (5).jpg","location":"Rome","sequence":5,"width":1300,"height":878,"alt":"Castel Sant’Angelo beneath purple storm clouds"}, src: source31, preview: preview31 },
+  { ...{"id":"photo-rome-6","kind":"photo","filename":"Rome (6).jpg","location":"Rome","sequence":6,"width":1300,"height":867,"alt":"St. Peter’s Basilica glowing beneath a pink and gold sunset"}, src: source32, preview: preview32 },
+  { ...{"id":"photo-rome-7","kind":"photo","filename":"Rome (7).jpg","location":"Rome","sequence":7,"width":800,"height":1200,"alt":"A distant dome framed by silhouetted trees at dusk in Rome"}, src: source33, preview: preview33 },
+  { ...{"id":"photo-rome-8","kind":"photo","filename":"Rome (8).jpg","location":"Rome","sequence":8,"width":1300,"height":866,"alt":"Lights along the Tiber reflected in the river at night"}, src: source34, preview: preview34 },
+  { ...{"id":"photo-rome-9","kind":"photo","filename":"Rome (9).jpg","location":"Rome","sequence":9,"width":1300,"height":867,"alt":"Roman rooftops and domes beyond green trees"}, src: source35, preview: preview35 },
+  { ...{"id":"photo-rome-10","kind":"photo","filename":"Rome (10).jpg","location":"Rome","sequence":10,"width":800,"height":1094,"alt":"A pedestrian and passing traffic on a Roman street"}, src: source36, preview: preview36 },
+  { ...{"id":"photo-rome-11","kind":"photo","filename":"Rome (11).jpg","location":"Rome","sequence":11,"width":800,"height":1200,"alt":"An ornate painted ceiling with gilded architectural details in Rome"}, src: source37, preview: preview37 },
+  { ...{"id":"photo-rome-12","kind":"photo","filename":"Rome (12).jpg","location":"Rome","sequence":12,"width":1300,"height":867,"alt":"People walking through a Roman square surrounded by pastel buildings"}, src: source38, preview: preview38 },
+  { ...{"id":"photo-rome-13","kind":"photo","filename":"Rome (13).jpg","location":"Rome","sequence":13,"width":1300,"height":866,"alt":"A photographer beside a bicycle on a cobbled street in Rome"}, src: source39, preview: preview39 },
+  { ...{"id":"photo-rome","kind":"photo","filename":"Rome.jpg","location":"Rome","sequence":1,"width":800,"height":1200,"alt":"A brightly lit stall in a dark Roman square"}, src: source40, preview: preview40 },
+  { ...{"id":"photo-siena","kind":"photo","filename":"siena.jpg","location":"Siena","sequence":1,"width":800,"height":1182,"alt":"A church dome framed by geometric brick architecture in Siena"}, src: source41, preview: preview41 },
+  { ...{"id":"photo-sofia-1","kind":"photo","filename":"Sofia (1).jpg","location":"Sofia","sequence":1,"width":1350,"height":1800,"alt":"Sunlight glowing over the rooftops of Sofia through a window"}, src: source42, preview: preview42 },
+  { ...{"id":"photo-sofia-2","kind":"photo","filename":"Sofia (2).jpg","location":"Sofia","sequence":2,"width":1350,"height":1800,"alt":"Sunlight streaming between buildings on a Sofia street"}, src: source43, preview: preview43 },
+  { ...{"id":"photo-sofia-3","kind":"photo","filename":"Sofia (3).jpg","location":"Sofia","sequence":3,"width":720,"height":1280,"alt":"An illuminated cathedral against the night sky in Sofia"}, src: source44, preview: preview44 },
+  { ...{"id":"photo-sofia-4","kind":"photo","filename":"Sofia (4).jpg","location":"Sofia","sequence":4,"width":960,"height":1280,"alt":"A pedestrian on a Sofia street in warm evening light"}, src: source45, preview: preview45 },
+  { ...{"id":"photo-sofia-5","kind":"photo","filename":"Sofia (5).jpg","location":"Sofia","sequence":5,"width":1350,"height":1800,"alt":"Trams and traffic beneath a setting sun in Sofia"}, src: source46, preview: preview46 },
+  { ...{"id":"photo-southern-lebanon","kind":"photo","filename":"Southern Lebanon.jpg","location":"Southern Lebanon","sequence":1,"width":1800,"height":1200,"alt":"Green fields and a distant hillside settlement in Southern Lebanon"}, src: source47, preview: preview47 },
+  { ...{"id":"photo-vienna-1","kind":"photo","filename":"Vienna (1).jpg","location":"Vienna","sequence":1,"width":1800,"height":1350,"alt":"Cafe tables and shopfronts on a street in Vienna"}, src: source48, preview: preview48 },
+  { ...{"id":"film-vienna-1","kind":"video","filename":"Vienna (1).MOV","location":"Vienna","sequence":1,"width":1200,"height":675,"alt":"Trees passing a train window on a journey through Vienna."}, src: source49, preview: preview49 },
+  { ...{"id":"photo-vienna-2","kind":"photo","filename":"Vienna (2).jpg","location":"Vienna","sequence":2,"width":1012,"height":1800,"alt":"Modern buildings beneath blue sky in Vienna"}, src: source50, preview: preview50 },
+  { ...{"id":"photo-vienna-3","kind":"photo","filename":"Vienna (3).jpg","location":"Vienna","sequence":3,"width":1350,"height":1800,"alt":"An elevated view of a Vienna street corner"}, src: source51, preview: preview51 }
 ];

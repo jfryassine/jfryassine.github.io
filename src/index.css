@@ -101,3 +101,23 @@
   .journey-footer button { font-size: 9px; padding: 11px 13px; }
 }
 @media (prefers-reduced-motion: reduce) { .journey-video { display: none; } }
+
+/* Preserve the photograph's original landscape composition. */
+.about-photo img { height: auto; aspect-ratio: auto; object-fit: contain; }
+
+/* A final moving postcard, keeping the Iraq film's full portrait frame. */
+.closing-film { margin: 75px 0 45px; padding: 65px 6% 24px; min-height: 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(200px, 32%); column-gap: 8%; row-gap: 35px; background: #283129; }
+.closing-film .journey-background { position: relative; inset: auto; grid-column: 2; grid-row: 1; width: 100%; height: auto; aspect-ratio: 9 / 16; object-fit: contain; align-self: center; min-width: 0; }
+.closing-film .journey-shade { display: none; }
+.closing-copy { grid-column: 1; grid-row: 1; align-self: center; padding: 0; }
+.closing-copy h2 { font-size: clamp(38px, 4.7vw, 68px); }
+.closing-copy .closing-contact-note { font-size: 11px; color: #bdc5b7; margin-top: 22px; max-width: 300px; }
+.closing-film .journey-footer { grid-column: 1 / -1; }
+@media (max-width: 600px) {
+  .closing-film { margin-top: 40px; padding: 35px 7% 20px; grid-template-columns: minmax(0, 1fr); gap: 30px; }
+  .closing-copy { grid-column: 1; grid-row: 1; }
+  .closing-copy h2 { font-size: 43px; }
+  .closing-film .journey-background { grid-column: 1; grid-row: 2; width: min(100%, 290px); justify-self: center; }
+
+  .closing-film .journey-footer { grid-row: 3; }
+}
